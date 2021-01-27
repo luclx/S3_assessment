@@ -1,0 +1,5 @@
+SELECT Department.NAME, COUNT(Employee.ID)
+FROM Department
+LEFT JOIN Employee ON Department.DEPT_ID = Employee.DEPT_ID
+GROUP BY Department.DEPT_ID, Department.NAME
+ORDER BY COUNT(Employee.ID) DESC, Department.NAME
