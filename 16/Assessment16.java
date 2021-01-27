@@ -1,6 +1,6 @@
-package com.luclx.assessment17;
+package com.luclx.assessment16;
 
-public class Assessment17 {
+public class Assessment16 {
 
     static class Rectangle {
         long left;
